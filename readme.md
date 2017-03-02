@@ -6,7 +6,7 @@ Convert values to and from decibels.
 
 ## Usage
 
-[![NPM](https://nodei.co/npm/glsl-face-normal.png)](https://nodei.co/npm/glsl-face-normal/)
+[![NPM](https://nodei.co/npm/glsl-decibels.png)](https://nodei.co/npm/glsl-decibels/)
 
 ```glsl
 varying float value;
