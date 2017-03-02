@@ -1,0 +1,39 @@
+{
+  "name": "glsl-decibels",
+  "version": "1.0.0",
+  "description": "Convert values to and from decibels",
+  "main": "index.glsl",
+  "scripts": {
+    "test": "budo test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackgl/glsl-decibels.git"
+  },
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "keywords": [
+    "stackgl",
+    "glsl",
+    "glslify",
+    "shader",
+    "audio",
+    "fragment",
+    "webgl"
+  ],
+  "author": "Dima Yv <dfcreative@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stackgl/glsl-decibels/issues"
+  },
+  "homepage": "https://github.com/stackgl/glsl-decibels#readme",
+  "devDependencies": {
+    "almost-equal": "^1.1.0",
+    "decibels": "^1.0.1",
+    "gl-shader-output": "^2.0.1",
+    "glslify": "^6.0.1"
+  }
+}
